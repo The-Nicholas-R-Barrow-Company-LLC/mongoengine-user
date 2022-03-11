@@ -10,11 +10,11 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="mongoengine-user",
-    version="0.0.1",
+    version="0.0.2",
     description="Basic user models for mongoengine",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/The-Nicholas-R-Barrow-Company-LLC/PyMacApp",
+    url="https://github.com/The-Nicholas-R-Barrow-Company-LLC/mongoengine-user",
     author="The Nicholas R. Barrow Company, LLC",
     author_email="me@nicholasrbarrow.com",
     license="MIT",
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
     ],
-    packages=["pymacapp"],
+    packages=["mongoengineuser"],
     include_package_data=True,
-    install_requires=["PyInstaller"],
+    install_requires=["mongoengine"],
 )
